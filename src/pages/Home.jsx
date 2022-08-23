@@ -1,5 +1,8 @@
 export default function Home() {
     return(
-        <h1>Home</h1>
+        <div className="home">
+        Le but de ce blog est de créer des articles et de les lister, le contenu
+        des articles à pour thème l'astronomie.
+      </div>
     )
 };

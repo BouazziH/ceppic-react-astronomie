@@ -1,5 +1,12 @@
+import FormArticl from "../components/FormArticl";
+
 export default function Ajouter() {
     return(
-        <h1>Ajouter article</h1>
+        <div>
+             <h1>Ajouter article</h1>  
+             <FormArticl />
+        </div>
+     
+
     )
 };

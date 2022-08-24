@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { db } from "../firebase";
 import { collection, addDoc, Timestamp } from "firebase/firestore";
-
+import "./FormArticle.css";
 
 export default function FormArticl() {
   const [titre, setTitre] = useState();

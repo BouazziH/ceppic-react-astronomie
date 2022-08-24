@@ -4,8 +4,8 @@ export default function Nav() {
     return(
        <nav className="nav">
 <Link to="/">Home</Link>
-<Link to="article">Articles</Link>
-<Link to="ajouter">Ajouter article</Link>
+<Link to="ajouter">Ajouter un article</Link>
+<Link to="article">Liste des articles</Link>
 <Link to="about">A propos</Link>
        </nav> 
         

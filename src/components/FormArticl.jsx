@@ -2,7 +2,7 @@ import { useState } from "react";
 import { db } from "../firebase";
 import { collection, addDoc, Timestamp } from "firebase/firestore";
 import "./FormArticle.css";
-import { Navigate } from 'react-router-dom';
+import { Navigate } from "react-router-dom";
 
 export default function FormArticl() {
   const [titre, setTitre] = useState();
@@ -12,7 +12,9 @@ export default function FormArticl() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
+      //ajouter une doc a la bd on donnant un nom
       await addDoc(collection(db, "articles"), {
+        //on definie les champs de la table articles
         titre: titre,
         articleContenu: articleContenu,
         created: Timestamp.now(),
@@ -27,7 +29,8 @@ export default function FormArticl() {
     return (
       <>
         <p> L'article a été enregistré.</p>
-             <Navigate to="/article" /> 
+        {/* pour la rediriction */}
+        <Navigate to="/article" />
       </>
     );
   }
@@ -35,6 +38,7 @@ export default function FormArticl() {
   return (
     <div className="formArticle">
       <form method="POST" onSubmit={handleSubmit}>
+      <h1>Ajouter article</h1>  
         <div>
           <input
             type="text"

@@ -1,12 +1,12 @@
-.home{
-    font-size: 22px;
-    display: block;
-    margin: 2rem;
-    color: blue;
-    
-    text-align: center;
-    background-image: url(../Assets/img/Bg.jpg);
-    background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+.home {
+  font-size: 22px;
+  display: block;
+  margin: 2rem;
+  color: blue;
+
+  text-align: center;
+  background-image: url(../Assets/img/Bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -1,0 +1,19 @@
+ul {
+  list-style: none;
+  text-align: center;
+}
+li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 25%;
+    margin-right: 25%;
+  border: 1px solid rgb(149, 249, 9);
+  background: linear-gradient(to top,transparent,rgb(253, 169, 160));
+}
+.liste{
+    background-image: url(../Assets/img/Bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+

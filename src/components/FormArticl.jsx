@@ -2,6 +2,7 @@ import { useState } from "react";
 import { db } from "../firebase";
 import { collection, addDoc, Timestamp } from "firebase/firestore";
 import "./FormArticle.css";
+import { Navigate } from 'react-router-dom';
 
 export default function FormArticl() {
   const [titre, setTitre] = useState();
@@ -26,6 +27,7 @@ export default function FormArticl() {
     return (
       <>
         <p> L'article a été enregistré.</p>
+             <Navigate to="/article" /> 
       </>
     );
   }

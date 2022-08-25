@@ -1,12 +1,17 @@
-.home{
-    font-size: 22px;
-    display: block;
-    margin: 2rem;
-    color: blue;
-    
+.about{
     text-align: center;
     background-image: url(../Assets/img/Bg.jpg);
-    background-position: center;
+  
+background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+}
+img{
+   
+    width: 50%;
+}
+p{
+    margin: 10px 10px ;
+    padding: 10px;
+
 }

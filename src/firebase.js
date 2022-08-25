@@ -8,7 +8,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAJiuCPRxs7Ax0CLIu7OS91TrLV4pLkREc",
+  apiKey: process.env.REACT_APP_APIKEY,
   authDomain: "ceppic-contact-b6a06.firebaseapp.com",
   projectId: "ceppic-contact-b6a06",
   storageBucket: "ceppic-contact-b6a06.appspot.com",

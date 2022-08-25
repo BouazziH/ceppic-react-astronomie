@@ -10,10 +10,5 @@ li {
   border: 1px solid rgb(149, 249, 9);
   background: linear-gradient(to top,transparent,rgb(253, 169, 160));
 }
-.liste{
-    background-image: url(../Assets/img/Bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
 

@@ -1,8 +1,9 @@
-.home{
-    font-size: 22px;
-    display: block;
-    margin: 2rem;
-    color: blue;
-    
-    
+.home {
+  font-size: 22px;
+  display: block;
+  margin: 2rem;
+  color: blue;
+
+  text-align: center;
+ 
 }

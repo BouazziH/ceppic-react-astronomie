@@ -1,3 +1,4 @@
+import "./Article.css";
 import { db } from "../firebase";
 import { collection, query, orderBy, onSnapshot } from "firebase/firestore";
 import { useEffect, useState } from "react";
@@ -21,7 +22,7 @@ export default function Article() {
   }, []);
 
   return (
-    <>
+    <div className="liste">
       <ul>
         {articles.map((article) => (
           <li key={article.id}>
@@ -30,6 +31,6 @@ export default function Article() {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 }

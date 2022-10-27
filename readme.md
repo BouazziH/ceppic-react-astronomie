@@ -15,3 +15,17 @@ Le but de ce blog est de creer des articles et de les lister,le contenu des arti
 9. Travailler sur une branche **developp** ainsi que des branches **feature/xxx** en effectuant des **PR(pull request)**.
 10. Faite des **commits atomiques**.
 11. Travailler le visuel de votre application (**style css**)
+12. Deployer son application sur github pages :
+*cree une branch deploy git 
+* npm install gh-pages
+* ajouter dans le script package.json
+  "homepage": "https://formeka.github.io/ceppic-react-astronomie/",
+"scripts": {
+ "start": "react-scripts start",
+ "build": "react-scripts build",
+ "test": "react-scripts test",
+ "eject": "react-scripts eject",
+ "predeploy": "npm run build",
+ "deploy": "gh-pages -d build"
+},
+* Deployer l'application : npm run deploy
